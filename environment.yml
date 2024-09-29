@@ -1,0 +1,7 @@
+name: pdf
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - pypdf2
+  - python
