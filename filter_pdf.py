@@ -4,7 +4,7 @@ import pandas as pd
 
 pdf_file = "results_MC.pdf"
 out_file = "results_MC_filtered.pdf"
-student_list = "401-0643-00L 2024S Prüfungseinsicht am 30.09. 1215 - 1400(1).txt"
+student_list = "student_list.txt"
 
 df = pd.read_csv(student_list, sep="\t").assign(found=False)
 df["regex"] = df.apply(
